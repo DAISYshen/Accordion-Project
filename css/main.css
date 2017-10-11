@@ -1,0 +1,136 @@
+/* insert the generated font from fontsquirrel*/
+@font-face {
+  font-family: 'QS';
+  src: url('../fonts/quicksand-regular-webfont.woff2') format('woff2'),
+       url('../fonts/quicksand-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('../fonts/opensans-light-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'seaside';
+    src: url('../fonts/seasrn__-webfont.woff2') format('woff2'),
+         url('../fonts/seasrn__-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+
+    margin: 0 auto;
+    padding: 65px;
+    background-color: #FEFFEB;
+    max-width: 65%;
+}
+
+h1{
+    font-family: 'seaside';
+    font-size: 3.4em;
+    text-align: center;
+    max-width: 70%;
+    margin: 0 auto;
+
+}
+
+.fixed{
+    position: fixed;
+    bottom:0px;
+    left:70%;
+}
+.btn1, .btn2{
+    position: fixed;
+
+    box-shadow: 0 2px 5px #6C567B;
+    background-color:white;
+    border-radius:50px;
+    cursor:pointer;
+    color:grey;
+    font-size:28px;
+
+    border: none;
+    outline:none;
+
+}
+.btn1:hover, .btn2:hover {
+    background-color:#F9B248;
+
+}
+.btn1{
+  padding:7px 15px;
+  left:95%;
+    bottom:240px;
+
+}
+.btn2{
+  padding:8px 10px;
+  left:95%;
+  bottom:180px;
+
+}
+
+
+.container, .container dt, .container dd{
+  margin: 0;
+  padding: 0;
+
+}
+
+.container dt{
+  color: #566B8D;
+  background-color: #FFED82;
+  font-family: 'QS';
+  font-size: 1.3em;
+  text-align: center;
+  max-width: 350px;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 30px;
+  border-radius: 15px 15px 15px 15px;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+
+
+}
+.container dt:hover{
+   /*transition: color 300ms ease-in-out, background 150ms ease-in-out;*/
+   transform: scale(1.1);
+   /*transform: all 3ms ease-in-out;*/
+}
+.container dt.blueTitle{
+  background-color: #A6DBE2;
+}
+.container dd{
+  background-color: white;
+  font-family: 'open_sanslight';
+  font-size: 0.9em;
+  padding: 20px;
+  text-align: justify;
+  max-width: 350px;
+  margin: 0 auto;
+  line-height: 1.5em;
+  border: 3px solid #FFED82;
+  border-top: none;
+  border-radius: 0 0 8px 8px;
+
+}
+
+img{
+  float: right;
+  margin-left: 15px;
+
+}
+
+footer h2{
+  font-family: 'open_sanslight';
+  text-align: center;
+  margin: 30px;
+  font-size: 0.9em;
+}
